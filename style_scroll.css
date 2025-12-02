@@ -1,0 +1,88 @@
+/* ============================
+RESET & BASE
+============================ */
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #141414;
+}
+
+/* ============================
+GSAP SECTIONS WRAPPER
+============================ */
+.gs-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+}
+
+/* estrutura base */
+.gs-outer,
+.gs-inner {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* fundo */
+.gs-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/* texto dividido */
+.gs-clip {
+    overflow: hidden;
+}
+
+.gs-heading {
+    z-index: 2;
+}
+
+
+/* ============================
+OPCIONAL — SUAVIZAÇÃO
+============================ */
+.gs-bg,
+.gs-outer,
+.gs-inner {
+    will-change: transform;
+}
+
+
+/* ============================
+CUSTOM BACKGROUNDS POR SECTION
+============================ */
+
+.third .gs-bg {
+    background-color: #252525;
+}
+
+/* ============================
+PREVENÇÃO DE INTERAÇÃO
+============================ */
+
+.gs-section * {
+    overscroll-behavior: none;
+    pointer-events: none;
+}
+
+button, a, .social-button, .parent {
+    pointer-events: auto;
+}
