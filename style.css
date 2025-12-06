@@ -46,6 +46,7 @@ header{
 
 #personal-photo{
     height: 97%;
+    margin-top: 20px;
     border-radius: 40% 20% 30% 50%;
     box-shadow: -8px 5px 20px 2px #3DFF3DFF;
 
@@ -398,6 +399,7 @@ ul, li{
         width: 72%;
         height: auto;
         margin-left: 15%;
+        margin-top: 0px;
     }
 
     /* ------------ About Section ------------ */
