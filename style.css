@@ -392,6 +392,7 @@ ul, li{
         height: auto;      /* Mantém a proporção original do SVG automaticamente */
         display: block;    /* Ajuda a remover margens indesejadas que alguns SVGs podem ter */
         max-width: 100%;   /* Garante que ele não ultrapasse o tamanho de um contêiner pai */
+        margin-top: 10px;
     }
     
 
@@ -400,13 +401,14 @@ ul, li{
         height: auto;
         margin-left: 15%;
         margin-top: 0px;
+        margin-bottom: 40px;
     }
 
     /* ------------ About Section ------------ */
 
     .article-about{
         grid-template-columns: 100%;
-        height: auto;
+        height: 100vh;
     }
 
     #about-title{
@@ -414,8 +416,12 @@ ul, li{
     }
 
     #about-txt{
-        padding: 0px 10px 0px 10px; 
-        font-size: 1rem;
+        padding: 0px 10px 40px 10px; 
+        font-size: 0.9rem;
+    }  
+
+    .section-about{
+        margin-top: 0px;
     }
 
     .robot-3d{
