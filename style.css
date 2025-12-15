@@ -72,10 +72,6 @@ header{
     font-size: 18px;
 }
 
-#svg-txt{
-    margin-top: 6px;
-}
-
 .menu{
     list-style: none;
     position: fixed;
@@ -427,13 +423,14 @@ ul, li{
     }
 
     .orbs-spline{
-        position: fixed;
+        display: none;
     }
 
     /* ------ Section Projects ------ */
     #projects-title{
         font-size: 1.6rem;
     }
+
     /* ------ Cards ------ */
     .cards-container{
     display: grid;
