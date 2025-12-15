@@ -137,11 +137,13 @@ ul, li{
     padding: 0px 80px 0px 80px; 
 }
 
-.robot-3d{
+.orbs-spline{
     width: 100%;
     position: absolute;
     z-index: 1;
-    display: none;
+    bottom: 120px;
+    left: 200px;
+    /* display: none; */
 }
 
 /* ------ Section Projects ------ */
@@ -424,8 +426,8 @@ ul, li{
         margin-top: 0px;
     }
 
-    .robot-3d{
-        display: none;
+    .orbs-spline{
+        position: fixed;
     }
 
     /* ------ Section Projects ------ */
