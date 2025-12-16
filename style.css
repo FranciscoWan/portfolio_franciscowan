@@ -139,7 +139,7 @@ ul, li{
     z-index: 1;
     bottom: 120px;
     left: 200px;
-    /* display: none; */
+    /* display: none;  */
 }
 
 /* ------ Section Projects ------ */
@@ -231,6 +231,7 @@ ul, li{
 .bottom .view-more:hover {
     transform: translate3d(0, 0, 10px);
 }
+
 .bottom .social-buttons-container {
     display: flex;
     gap: 10px;
@@ -354,6 +355,64 @@ ul, li{
 
 .parent:hover .card .logo .circle5 {
     transform: translate3d(0, 0, 120px);
+}
+
+/* ------ Contact section ------ */
+
+/* Astronaut */
+#background-contact-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.astronaut-div{
+    position: absolute;
+    bottom: 40px;
+    right:360px;
+    transition: all 8s ease-in-out 1s;
+    animation: astronaut-div 8s infinite;
+}
+
+@keyframes astronaut-div{
+    0%{right: 360px;
+        bottom: 60px;
+    }
+    50%{right: 310px;
+        bottom: -60px;
+    rotate: -20deg;}
+    100%{right: 360px;
+        bottom: 60px;}
+}
+
+#astronaut-img{
+    scale: 0.5;
+    filter: drop-shadow(5px -4px 11px #3DFF3DFF);
+}
+
+/* Contact div-icons */
+
+.contact-div-icons{
+    position: absolute;
+    top: 260px;
+    right: 360px;
+}
+
+.icons-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icons-contact i{
+    font-size: 50px;
+}
+
+i:hover{
+    cursor: pointer;
 }
 
 /* Media Queries */
