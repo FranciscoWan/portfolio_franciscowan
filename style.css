@@ -139,7 +139,7 @@ ul, li{
     z-index: 1;
     bottom: 120px;
     left: 200px;
-    display: none; 
+    /* display: none;  */
 }
 
 /* ------ Section Projects ------ */
