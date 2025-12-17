@@ -137,8 +137,8 @@ ul, li{
     width: 100%;
     position: absolute;
     z-index: 1;
-    bottom: 120px;
-    left: 200px;
+    bottom: 8%;
+    left: 25%;
     /* display: none;  */
 }
 
@@ -148,7 +148,7 @@ ul, li{
 
 #projects-title{
     position: absolute;
-    top: 10%;
+    top: 14%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -370,21 +370,23 @@ ul, li{
 
 .astronaut-div{
     position: absolute;
-    bottom: 40px;
-    right:360px;
+    bottom: 34%;
+    right: 20%;
     transition: all 8s ease-in-out 1s;
     animation: astronaut-div 20s infinite;
 }
 
 @keyframes astronaut-div{
-    0%{right: 360px;
-        bottom: 60px;
+    0%{bottom: 34%;
+        right: 20%;
     }
-    50%{right: 310px;
-        bottom: -60px;
-    rotate: -20deg;}
-    100%{right: 360px;
-        bottom: 60px;}
+    50%{bottom: 0;
+        right: 16%;
+        rotate: -24deg;
+    }
+    100%{bottom: 34%;
+        right: 20%;
+    }
 }
 
 #astronaut-img{
@@ -396,8 +398,8 @@ ul, li{
 
 .contact-div-icons{
     position: absolute;
-    top: 260px;
-    right: 360px;
+    top: 40%;
+    right: 26%;
 }
 
 .icons-contact{
