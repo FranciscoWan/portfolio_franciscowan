@@ -419,6 +419,50 @@ i:hover{
 
 /* Media Queries */
 
+@media only screen and (max-width: 1366px){
+
+    .article-about{
+    grid-template-columns: 70% 30%;
+    }
+
+    .orbs-spline{
+        bottom: 12%;
+        left: 12%;
+        /* display: none;  */
+    }
+
+    .astronaut-div{
+        bottom: 40px;
+        right:360px;
+    }
+
+    @keyframes astronaut-div{
+    0%{right: 360px;
+        bottom: 60px;
+    }
+    50%{right: 310px;
+        bottom: -60px;
+        rotate: -20deg;
+    }
+    100%{right: 360px;
+        bottom: 60px;
+    }
+    }
+
+    #astronaut-img{
+    scale: 0.5;
+    }
+
+    .contact-div-icons{
+        width: 328px;
+        top: 50%;
+        left: 54%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+
 @media only screen and (max-width: 768px){
     /*  */
     body{
@@ -589,7 +633,7 @@ i:hover{
     position: absolute;
     top: 55%;
     right: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(-50%, -50%);
     width: 60%;
     }
 
