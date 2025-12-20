@@ -674,8 +674,12 @@ i:hover{
         margin-bottom: 140px;
     }
 
-    .content .title{
+    .title{
         font-size: 0.8rem;
+    }
+
+    .content{
+        font-size: 0.6rem;
     }
 
     /*  Contact section */
