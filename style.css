@@ -654,7 +654,7 @@ i:hover{
     }
 
     #personal-photo{
-        margin-bottom: 100px;
+        margin-bottom: 120px;
     }
 
 
@@ -674,8 +674,13 @@ i:hover{
         margin-bottom: 140px;
     }
 
+    .content .title{
+        font-size: 0.8rem;
+    }
+
     /*  Contact section */
     .contact-div-icons{
         top: 45%;
+        left: 50%;
     }
 }
