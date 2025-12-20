@@ -664,6 +664,11 @@ i:hover{
     }
 
     /* cards container */
+
+    #projects-title{
+        top: 12%;
+    }
+    
     #margin-card-top{
         margin-top: 200px;
         margin-left: 12px;
@@ -674,11 +679,11 @@ i:hover{
         margin-bottom: 140px;
     }
 
-    .content .title{
+    #title-cards{
         font-size: 1rem;
     }
 
-    .content .text{
+    #txt-cards{
         font-size: 0.8rem;
     }
 
